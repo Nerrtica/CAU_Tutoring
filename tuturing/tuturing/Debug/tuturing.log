@@ -1,0 +1,3 @@
+﻿  linkedlist.c
+c:\users\parkhoyeon\desktop\프로그래밍\c\실전\tuturing\tuturing\linkedlist.c(199): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  tuturing.vcxproj -> C:\Users\ParkHoYeon\Desktop\프로그래밍\C\실전\tuturing\Debug\tuturing.exe
