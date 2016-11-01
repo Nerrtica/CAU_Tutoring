@@ -110,7 +110,7 @@ int main() {
 			}
 		}
 		else if (menu == 4) {
-			printf("data of All Node: ");
+			printf("\ndata of All Node: ");
 			printAllNodeData(head);
 			continue;
 		}
@@ -183,8 +183,10 @@ void addNodeByIndex(Node * head, int index, int data) {
 		nptr1->next = newn;
 		newn->next = nptr2;
 	}
+	else if (check + 1 == index)
+		addNodeAtEnd(head, data);
 	else
-		printf("\nIt doesn't have that Node!\n");
+			printf("\nIt doesn't have that Node!\n");
 }
 
 void delNodeByData(Node * head, int data) {
